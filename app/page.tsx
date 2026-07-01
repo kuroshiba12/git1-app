@@ -12,6 +12,9 @@ export default function Home() {
 
   return (
     <main style={{ padding: '2rem', fontFamily: 'sans-serif', textAlign: 'center' }}>
+      <div style={{ backgroundColor: '#ff0000', color: '#fff', padding: '1rem', fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '2rem' }}>
+        🚧 これはPREVIEWブランチです 🚧
+      </div>
       <h1>Vercel単体でのサーバー構築テスト</h1>
       <div style={{ marginTop: '2rem', padding: '1rem', border: '1px solid #ccc', borderRadius: '8px', display: 'inline-block', textAlign: 'left' }}>
         <h2 style={{ color: '#0070f3' }}>サーバーから届いたデータ</h2>
