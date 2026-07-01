@@ -21,7 +21,7 @@ export default function Home() {
             <p><strong>取得時間:</strong> {data.createdAt}</p>
           </div>
         ) : (
-          <p>データを受け取り中...</p>
+          <p>データを受け取り中....</p>
         )}
       </div>
     </main>
